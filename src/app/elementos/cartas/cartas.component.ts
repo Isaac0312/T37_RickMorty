@@ -1,3 +1,4 @@
+import { Input } from '@angular/core';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,7 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./cartas.component.css']
 })
 export class CartasComponent {
-  name: string | any;
-  image: string | any;
-
+  @Input() personaje:any;
 }

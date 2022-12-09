@@ -11,7 +11,7 @@ import { CartasComponent } from './cartas/cartas.component';
     CartasComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     NavbarComponent,
