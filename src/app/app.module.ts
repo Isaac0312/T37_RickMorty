@@ -11,13 +11,13 @@ import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from "./elementos/navbar/navbar.component";
 import { DescripcionPipe } from './descripcion.pipe';
+
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
         CharactersComponent,
         AboutComponent,
-        DescripcionPipe
     ],
     providers: [],
     bootstrap: [AppComponent],

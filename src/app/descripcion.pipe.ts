@@ -5,10 +5,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class DescripcionPipe implements PipeTransform {
 
-  transform(value: any, args?:any): any {
-    if(args != null){
+  transform(value: any): any {
       return value.status;
-    }
   }
 
 }
